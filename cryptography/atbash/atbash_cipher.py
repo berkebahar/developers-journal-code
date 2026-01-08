@@ -1,3 +1,7 @@
+# Atbash cipher is symmetric:
+# the same function is used for both encryption and decryption.
+
+
 def atbash_cipher(text):
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     reversed_alphabet = alphabet[::-1]
